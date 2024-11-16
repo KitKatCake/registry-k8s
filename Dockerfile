@@ -7,4 +7,5 @@
 #FROM gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:5e9236452d89363957d4e7e249d57740a8fcd946aed23f8518d94962bf440250
 #FROM gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:0fb5a4245aa4737d443658754464cd0a076de959fe14623fb9e9d31318ccce24
 #FROM gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:5fb22b052e6bc98a1a6bbb68c0282ddb50744702acee6d83110302bc990666e9
-FROM gcr.io/knative-releases/knative.dev/net-kourier/cmd/kourier@sha256:b53b3b680ef1f3cca83740d9e667f60b3581574b95a365dc7a1b9ce3fdd96aa6
+#FROM gcr.io/knative-releases/knative.dev/net-kourier/cmd/kourier@sha256:b53b3b680ef1f3cca83740d9e667f60b3581574b95a365dc7a1b9ce3fdd96aa6
+FROM registry.k8s.io/ingress-nginx/controller:v1.12.0-beta.0@sha256:9724476b928967173d501040631b23ba07f47073999e80e34b120e8db5f234d5
