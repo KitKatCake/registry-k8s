@@ -12,4 +12,5 @@
 #FROM registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.12.0
 #FROM registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20230312-helm-chart-4.5.2-28-g66a760794
 #FROM registry.k8s.io/autoscaling/vpa-recommender:1.2.1
-FROM registry.k8s.io/autoscaling/vpa-updater:1.2.1
+#FROM registry.k8s.io/autoscaling/vpa-updater:1.2.1
+FROM registry.k8s.io/autoscaling/vpa-admission-controller:1.2.1
