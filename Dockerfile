@@ -13,4 +13,5 @@
 #FROM registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20230312-helm-chart-4.5.2-28-g66a760794
 #FROM registry.k8s.io/autoscaling/vpa-recommender:1.2.1
 #FROM registry.k8s.io/autoscaling/vpa-updater:1.2.1
-FROM registry.k8s.io/autoscaling/vpa-admission-controller:1.2.1
+#FROM registry.k8s.io/autoscaling/vpa-admission-controller:1.2.1
+FROM gcr.io/k8s-staging-gateway-api/echo-basic:v20231214-v1.0.0-140-gf544a46e
