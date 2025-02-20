@@ -17,4 +17,5 @@
 #FROM gcr.io/k8s-staging-gateway-api/echo-basic:v20231214-v1.0.0-140-gf544a46e
 #FROM  docker.io/kindest/node:v1.32.0
 #FROM docker.io/itzcrazykns1337/perplexica-backend:main
-FROM docker.io/itzcrazykns1337/perplexica-frontend:main
+#FROM docker.io/itzcrazykns1337/perplexica-frontend:main
+FROM docker.io/nginx:latest
