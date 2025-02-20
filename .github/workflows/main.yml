@@ -1,18 +1,16 @@
 name: Pull and Push to ACK
-
 on:
   push:
     branches: [ "master" ]
-
     - name: Login to ACR with the AccessKey pair
       uses: aliyun/acr-login@v1
       with:
-        login-server: "registry.cn-hangzhou.aliyuncs.com"
-        region-id: "cn-hangzhou"
-        username: "${{ secrets.ACR_usrname }}"
-        password: "${{ secrets.ACR_password }}"
+        login-server: "registry.cn-beijing.aliyuncs.com"
+        region-id: "cn-beijing"
+        username: "${{ secrets.ACR_USERNAME }}"
+        password: "${{ secrets.ACR_PASSWORD }}"
     - name: push ingress-nginx
       run: |
         docker pull registry.k8s.io/ingress-nginx/controller:v1.7.0
-        docker tag registry.k8s.io/ingress-nginx/controller:v1.7.0 registry.cn-hangzhou.aliyuncs.com/tektona/ingress-nginx-controller:v1.7.0
-        docker push registry.cn-hangzhou.aliyuncs.com/tiyee/ingress-nginx-controller:v1.7.0
+        docker tag registry.k8s.io/ingress-nginx/controller:v1.7.0 registry.cn-beijing.aliyuncs.com/tiyee/ingress-nginx-controller:v1.7.0
+        docker push registry.cn-beijing.aliyuncs.com/tiyee/ingress-nginx-controller:v1.7.0
