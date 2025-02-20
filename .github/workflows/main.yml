@@ -1,7 +1,7 @@
 name: Pull and Push to ACK
 on:
-  push:
-    branches: [ "master" ]
+   push:
+     branches: [ "master" ]
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
