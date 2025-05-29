@@ -19,4 +19,5 @@
 #FROM docker.io/itzcrazykns1337/perplexica-backend:main
 #FROM docker.io/itzcrazykns1337/perplexica-frontend:main
 #FROM docker.io/nginx:latest
-FROM  whyour/qinglong:latest
+#FROM  whyour/qinglong:latest
+FROM pegleg/whaler
