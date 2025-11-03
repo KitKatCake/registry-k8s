@@ -22,4 +22,5 @@
 #FROM  whyour/qinglong:latest
 #FROM pegleg/whaler
 #FROM grafana/grafana:12.2.0
-FROM registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.12.0
+#FROM registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.12.0
+FROM registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.17.0
