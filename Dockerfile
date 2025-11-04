@@ -24,4 +24,5 @@
 #FROM grafana/grafana:12.2.0
 #FROM registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.12.0
 #FROM registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.17.0
-FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.13.0
+#FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.13.0
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.2.1
