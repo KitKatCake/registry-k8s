@@ -27,4 +27,5 @@
 #FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.13.0
 #FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.2.1
 #FROM registry.k8s.io/sig-storage/csi-attacher:v4.8.1
-FROM registry.k8s.io/sig-storage/csi-provisioner:v5.2.0
+#FROM registry.k8s.io/sig-storage/csi-provisioner:v5.2.0
+FROM registry.k8s.io/sig-storage/csi-resizer:v1.13.2
