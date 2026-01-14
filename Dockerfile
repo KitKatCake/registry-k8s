@@ -29,4 +29,4 @@
 #FROM registry.k8s.io/sig-storage/csi-attacher:v4.8.1
 #FROM registry.k8s.io/sig-storage/csi-provisioner:v5.2.0
 #FROM registry.k8s.io/sig-storage/csi-resizer:v1.13.2
-FROM docker.io/kserve/huggingfaceserver:v0.1:5.2-gpu
+FROM docker.io/kserve/huggingfaceserver:v0.15.2-gpu
